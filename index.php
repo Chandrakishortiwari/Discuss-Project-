@@ -1,5 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Discuss website</title>
+    <?php include('./client/commonFile.php'); ?>
 
-<?php 
-  echo "create a discuss App"
-
-?>
+</head>
+<body>
+<?php include('./client/header.php'); ?>
+</body>
+</html>
