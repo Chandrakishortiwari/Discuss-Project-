@@ -9,6 +9,16 @@
 
 </head>
 <body>
-<?php include('./client/header.php'); ?>
+<?php
+ include('./client/header.php'); 
+  
+ if(isset($_GET['singup']))
+ {
+     include('./client/singup.php') ;
+ }
+else{
+
+ };
+ ?>
 </body>
 </html>
