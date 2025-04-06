@@ -16,7 +16,10 @@
  {
      include('./client/singup.php') ;
  }
-else{
+ elseif(isset($_GET['singup'])){
+    include('./client/login.php') ;
+ }
+ else{
 
  };
  ?>
