@@ -1,5 +1,7 @@
 <?php 
 
+include('../common/db.php');
+
 if(isset($_POST['singup'])){
     echo "username is"." ".$_POST['username']."<br>";
     echo "user email id is"." ".$_POST['email']."<br>";
